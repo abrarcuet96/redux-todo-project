@@ -3,6 +3,7 @@ import Home from "@/pages/home";
 import LoginPage from "@/pages/login";
 import SignupPage from "@/pages/signup";
 import Tasks from "@/pages/tasks";
+import Users from "@/pages/users";
 import { createBrowserRouter } from "react-router-dom";
 const routes = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const routes = createBrowserRouter([
       {
         path: "tasks",
         element: <Tasks />,
+      },
+      {
+        path: "users",
+        element: <Users />,
       },
     ],
   },
